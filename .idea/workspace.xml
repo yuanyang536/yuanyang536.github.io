@@ -22,24 +22,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.94172496">
-              <caret line="280" column="14" selection-start-line="280" selection-start-column="14" selection-end-line="280" selection-end-column="14" />
+            <state vertical-scroll-proportion="-18.75">
+              <caret line="24" column="89" selection-start-line="24" selection-start-column="89" selection-end-line="24" selection-end-column="89" />
               <folding>
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#address#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#0;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#1;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1456917261432" expanded="true" signature="75:14379" placeholder="..." />
-                <marker date="1456917261432" expanded="true" signature="620:14372" placeholder="..." />
-                <marker date="1456917261432" expanded="true" signature="647:817" placeholder="..." />
-                <marker date="1456917261432" expanded="true" signature="667:792" placeholder="{...}" />
-                <marker date="1456917261432" expanded="true" signature="881:960" placeholder="..." />
+                <marker date="1456917496818" expanded="true" signature="647:817" placeholder="..." />
+                <marker date="1456917496818" expanded="true" signature="667:792" placeholder="{...}" />
+                <marker date="1456917496818" expanded="true" signature="881:960" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style-v2.4.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/re/style-v2.4.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="151.5625">
+              <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style-v2.4-print.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/re/style-v2.4-print.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.8158508">
+              <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,6 +107,8 @@
       <list>
         <option value="$PROJECT_DIR$/re.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/re/style-v2.4.css" />
+        <option value="$PROJECT_DIR$/re/style-v2.4-print.css" />
       </list>
     </option>
   </component>
@@ -152,6 +170,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="yuanyang536.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yuanyang536.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yuanyang536.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="re" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -249,17 +281,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#address#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1456917261432" expanded="true" signature="75:14379" placeholder="..." />
-            <marker date="1456917261432" expanded="true" signature="620:14372" placeholder="..." />
-            <marker date="1456917261432" expanded="true" signature="647:817" placeholder="..." />
-            <marker date="1456917261432" expanded="true" signature="667:792" placeholder="{...}" />
-            <marker date="1456917261432" expanded="true" signature="881:960" placeholder="..." />
+            <marker date="1456917496818" expanded="true" signature="647:817" placeholder="..." />
+            <marker date="1456917496818" expanded="true" signature="667:792" placeholder="{...}" />
+            <marker date="1456917496818" expanded="true" signature="881:960" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -300,21 +328,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.94172496">
-          <caret line="280" column="14" selection-start-line="280" selection-start-column="14" selection-end-line="280" selection-end-column="14" />
+        <state vertical-scroll-proportion="-18.75">
+          <caret line="24" column="89" selection-start-line="24" selection-start-column="89" selection-end-line="24" selection-end-column="89" />
           <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#address#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1456917261432" expanded="true" signature="75:14379" placeholder="..." />
-            <marker date="1456917261432" expanded="true" signature="620:14372" placeholder="..." />
-            <marker date="1456917261432" expanded="true" signature="647:817" placeholder="..." />
-            <marker date="1456917261432" expanded="true" signature="667:792" placeholder="{...}" />
-            <marker date="1456917261432" expanded="true" signature="881:960" placeholder="..." />
+            <marker date="1456917496818" expanded="true" signature="647:817" placeholder="..." />
+            <marker date="1456917496818" expanded="true" signature="667:792" placeholder="{...}" />
+            <marker date="1456917496818" expanded="true" signature="881:960" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/re/style-v2.4.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="151.5625">
+          <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/re/style-v2.4-print.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.8158508">
+          <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
