@@ -1,0 +1,370 @@
+/**
+ * Created by PhpStorm.
+ * User: zhangjing
+ * Date: 2016/3/3
+ * Time: 11:31
+ */
+body {
+  margin: 0;
+  background: #fff;
+  color: #333;
+  font-family: 'Pingfang SC', 'Lantinghei SC', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+  -webkit-print-color-adjust: exact;
+}
+h1, h2, h3, h4, h5, h6, p, ul, ol { margin: 0; padding: 0; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; font-size: inherit; }
+ul, ol { list-style-type: none; }
+p, ul, ol {
+  text-align: justify;
+  line-height: 1.7;
+}
+li{
+  list-style: none;
+}
+img { border: none; vertical-align: top; }
+a, a:visited { text-decoration: none; color: #08c; }
+a:hover { text-decoration: underline; }
+
+.clear { clear: both; height: 0; overflow: hidden; }
+.clearfix:after {
+  display: block;
+  overflow: hidden;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  content: '.';
+}
+
+/* conent border */
+@media (max-width: 749px) {
+  .boundary { margin: 0 20px; clear: both; }
+}
+@media (min-width: 750px) {
+  .boundary { max-width: 980px; margin: 0 auto; clear: both; }
+}
+@media (min-width: 750px) and (max-width: 1040px) {
+  .boundary { max-width: auto; margin: 0 30px; }
+}
+
+/* button */
+.button {
+  background: #1d9bd9;
+  background: -webkit-linear-gradient(#3baee7, #08c);
+  background: linear-gradient(#3baee7, #08c);
+  color: #f6f6f6;
+  border-radius: 0.4rem;
+  padding: 0 0.5rem;
+}
+a.button { display: inline-block; }
+.button:visited { color: #f6f6f6; }
+.button:hover {
+  color: #fff;
+  background: #2fa2dc;
+  background: -webkit-linear-gradient(#4ab4e8, #1491d0);
+  background: linear-gradient(#4ab4e8, #1491d0);
+  text-decoration: none;
+}
+
+/* head */
+.header {
+  border-bottom: 1px solid #d6d6d6;
+  line-height: 1;
+  padding: 15px 0;
+}
+.header_logo_fullname {
+  font-size: 2rem;
+  font-family: 'PingHei', 'STHeiti SC', 'SimHei';
+}
+.header_logo_jobtitle {
+  color: #888;
+}
+.header_address {
+  font-style: normal;
+  line-height: 21px;
+  font-size: 0.875rem;
+}
+.header_address_item {
+  padding-left: 24px;
+  background: url(icon-sprites.png) no-repeat;
+  background-size: 20px auto;
+  margin-top: 8px;
+  height: 20px;
+  line-height: 20px;
+}
+.header_address_item-phone {
+  background-position: 0 0;
+}
+.header_address_item-qq {
+  background-position: 0 -28px;
+}
+.header_address_item-email {
+  background-position: left bottom;
+}
+.header_address_item-blog {
+  padding-left: 0;
+  background: none;
+}
+.header_address .button {
+  font-size: 0.86em;
+}
+@media (max-width: 319px) {
+  .header_logo { margin-bottom: 12px; line-height: 1.3; }
+  .header_logo_jobtitle { display: block; }
+}
+@media (min-width: 320px) {
+  .header_logo { line-height: 40px; height: 40px; }
+  .header_logo_jobtitle { padding-left: 10px; }
+}
+@media (min-width: 480px) {
+  .header_address_item { float: left; margin-right: 22px; }
+  .header_address_item-blog { float: right; margin-right: 0; }
+}
+@media (min-width: 750px) {
+  .header {
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    z-index: 99999;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.95);
+  }
+  .header .boundary { position: relative; }
+  .header_logo { position: relative; float: left; }
+  .header_logo_fullname { font-size: 2.5em; }
+  .header_logo_jobtitle {
+    position: absolute;
+    left: 100%;
+    bottom: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  .header_address { position: absolute; right: 0;  bottom: 0; }
+  .header_address_item { margin-left: 28px; margin-right: 0; }
+
+  /*  */
+  .main { padding-top: 71px; }
+}
+
+/* zhangjie */
+.section_header {
+  text-shadow: 1px 1px 0 #fff;
+  line-height: 1.4;
+}
+.section_header_title, .section_header_subtitle {
+  font-family: 'Microsoft JhengHei', 'Microsoft YaHei', 'STHeiti SC', 'SimHei';
+  text-align: center;
+}
+.section_header_subtitle {
+  color: #999;
+}
+
+@media (max-width: 749px) {
+  .section .boundary { padding: 25px 0; }
+  .section_header { margin-bottom: 20px; }
+  .section_header_title { font-size: 1.625em; }
+  .section_header_subtitle { font-size: 1.25em; }
+}
+
+@media (min-width: 750px) {
+  .section .boundary { padding: 35px 0; }
+  .section_header { margin-bottom: 30px; }
+  .section_header_title { font-size: 2.5em; }
+  .section_header_subtitle { font-size: 2.125em; }
+}
+
+/* jishu jineng zhangjie */
+.tech-skill-list_item {
+  position: relative;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+}
+.tech-skill-list_item-javascript {
+  width: 70%;
+  -webkit-animation-name: bar-javascript;
+  animation-name: bar-javascript;
+}
+@-webkit-keyframes bar-javascript {
+  0% { width: 0; }
+  100% { width: 70%; }
+}
+@keyframes bar-javascript {
+  0% { width: 0; }
+  100% { width: 70%; }
+}
+.tech-skill-list_item-html-and-css {
+  width: 90%;
+  -webkit-animation-name: bar-html-and-css;
+  animation-name: bar-html-and-css;
+}
+@-webkit-keyframes bar-html-and-css {
+  0% { width: 0; }
+  100% { width: 90%; }
+}
+@keyframes bar-html-and-css {
+  0% { width: 0; }
+  100% { width: 90%; }
+}
+.tech-skill-list_item-nodejs {
+  width: 40%;
+  -webkit-animation-name: bar-nodejs;
+  animation-name: bar-nodejs;
+}
+@-webkit-keyframes bar-nodejs {
+  0% { width: 0; }
+  100% { width: 40%; }
+}
+@keyframes bar-nodejs {
+  0% { width: 0; }
+  100% { width: 40%; }
+}
+.tech-skill-list_item-photoshop {
+  width: 80%;
+  -webkit-animation-name: bar-photoshop;
+  animation-name: bar-photoshop;
+}
+@-webkit-keyframes bar-photoshop {
+  0% { width: 0; }
+  100% {
+    width:80%; }
+}
+@keyframes bar-photoshop {
+  0% { width: 0; }
+  100% {
+    width:80%; }
+}
+.tech-skill-list_item_name {
+  height: 40px;
+  line-height: 40px;
+  padding-left: 10px;
+  overflow: hidden;
+  border-left: 3px solid;
+  color: #ff742a;
+  background-color: #fff6dd;
+  border-color: #fdbc40;
+}
+.tech-skill-list_item-practised .tech-skill-list_item_name {
+  color: #6e9c0f;
+  background-color: #eaf6d0;
+  border-color: #80bd01;
+}
+.tech-skill-list_item-mastered .tech-skill-list_item_name {
+  color: #2a7da9;
+  background-color: #d6efff;
+  border-color: #3498db;
+}
+.tech-skill-list_item_detail {
+  display: none;
+  position: relative;
+  left: 100px;
+  top: -20px;
+  z-index: 9999;
+  max-width: 650px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 749px) {
+  .tech-skill-list_item { margin-bottom: 15px; }
+}
+
+@media (min-width: 750px) {
+  .tech-skill-list_item { margin-bottom: 20px; }
+  .tech-skill-list_item:hover .tech-skill-list_item_detail {
+    display: block;
+    font-size: 0.875em;
+  }
+  .fade {
+    -webkit-animation: 1s fadeIn 0.8s;
+    animation: 1s fadeIn 0.8s;
+  }
+  @-webkit-keyframes fadeIn {
+    0% { display: none; opacity: 0; }
+    1% { display: block; opacity: 0; }
+    100% { display: block; opacity: 1; }
+  }
+  @keyframes fadeIn {
+    0% { display: none; opacity: 0; }
+    1% { display: block; opacity: 0; }
+    100% { display: block; opacity: 1; }
+  }
+}
+
+/* 工作经验章节 */
+.work-exp-list {
+  border-left: 4px solid #ccc;
+  padding: 1px 0;
+  margin-left: 8px;
+}
+.work-exp-list_point {
+  position: relative;
+  padding-left: 15px;
+  margin: 15px 0;
+  height: 26px;
+  line-height: 26px;
+}
+.work-exp-list_point_ico {
+  width: 18px;
+  height: 18px;
+  border: 3px solid #fff;
+  border-radius: 12px;
+  background: #3498db;
+  position: absolute;
+  left: -14px;
+  top: 0;
+}
+.work-exp-list_company {
+  margin-left: 20px;
+}
+.work-exp-list_company_header {
+  line-height: 1;
+}
+.work-exp-list_company_header_logo {
+  width: 100px;
+  display: block;
+}
+.work-exp-list_company_header_logo img {
+  width: 100%;
+}
+.work-exp-list_company_header_title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.work-exp-list_company_header_jobtitle {
+  color: #888;
+}
+.work-exp-list_company_body {
+  margin-top: 4px;
+}
+
+@media (max-width: 639px) {
+  .work-exp-list_company_logo { display: block; margin-bottom: 8px; }
+  .work-exp-list_company_header_title { margin-top: 10px; color: blue; }
+  .work-exp-list_company_header_jobtitle { margin-top: 2px; }
+}
+
+@media (min-width: 640px) {
+  .work-exp-list_company { margin-top: 30px; margin-bottom: 30px; }
+  .work-exp-list_company_header { position: relative; padding-left: 115px; }
+  .work-exp-list_company_header_logo { position: absolute; left: 0; top: 0; }
+  .work-exp-list_company_header_title,
+  .work-exp-list_company_header_jobtitle { display: inline-block; }
+  .work-exp-list_company_header_jobtitle:before {
+    content: '\2014\2014';
+    padding-right: 4px;
+  }
+  .work-exp-list_company_body { padding-left: 115px; }
+}
+
+/* 页脚 */
+.footer {
+  border-top: 1px solid #e8e8e8;
+  color: #888;
+  font-size:.8em;
+  .boundary {
+    padding: 15px 0;
+  }
+}
