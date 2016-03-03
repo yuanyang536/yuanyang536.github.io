@@ -180,12 +180,9 @@
 <script src="re/jquery.min.js"></script>
 <script>
   $(function(){
-    $('.sh-btn').hover(function(){
-      $(this).find('i').text('▼');
-      $(this).parent().next().stop().animate({'opacity':'1','height':'100%','padding':'10px'});
-    },function(){
-      $(this).find('i').text('◀');
-      $(this).parent().next().stop().animate({'opacity':'0','height':'0','padding':'0'});
+    $('.tech-skill-list_item').click(function(){
+      $(this).find('i').text($(this).find('.tech-skill-list_item_detail').is(':hidden')?"▼":"◀");
+      $(this).find('.tech-skill-list_item_detail').slideToggle();
     })
   })
 </script>

@@ -235,14 +235,14 @@ a.button {
 .tech-skill-list_item {
   position: relative;
   -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s; }
+  animation-duration: 1.5s;
+  cursor: pointer; }
   .tech-skill-list_item .sh-btn {
     float: right;
-    margin-right: 10px;
-    cursor: pointer; }
+    margin-right: 10px; }
     .tech-skill-list_item .sh-btn i {
       font-style: normal;
-      margin-left: 3px; }
+      margin-left: 5px; }
 
 .tech-skill-list_item-javascript {
   width: 70%;
@@ -325,12 +325,11 @@ a.button {
   border-color: #3498db; }
 
 .tech-skill-list_item_detail {
-  width: 100%;
+  max-width: 650px;
+  padding: 10px;
   background: white;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-  opacity: 0;
-  height: 0;
-  padding: 0px;
+  display: none;
   margin: 5px 0 0 10px; }
 
 @media (max-width: 749px) {

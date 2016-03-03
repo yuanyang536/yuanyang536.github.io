@@ -180,13 +180,13 @@ a.button { display: inline-block; }
   position: relative;
   -webkit-animation-duration: 1.5s;
   animation-duration: 1.5s;
+  cursor: pointer;
   .sh-btn{
     float: right;
     margin-right:10px;
-    cursor: pointer;
     i{
       font-style: normal;
-      margin-left:3px;
+      margin-left:5px;
     }
   }
 }
@@ -265,12 +265,15 @@ a.button { display: inline-block; }
   border-color: #3498db;
 }
 .tech-skill-list_item_detail {
-  width: 100%;
+  //position: absolute;
+  //left: 100px;
+  //top: 20px;
+  //z-index: 9999;
+  max-width: 650px;
+  padding: 10px;
   background: rgba(255, 255, 255, 1);
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-  opacity: 0;
-  height:0;
-  padding: 0px;
+  display: none;
   margin:5px 0 0 10px;
 }
 
