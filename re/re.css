@@ -236,6 +236,13 @@ a.button {
   position: relative;
   -webkit-animation-duration: 1.5s;
   animation-duration: 1.5s; }
+  .tech-skill-list_item .sh-btn {
+    float: right;
+    margin-right: 10px;
+    cursor: pointer; }
+    .tech-skill-list_item .sh-btn i {
+      font-style: normal;
+      margin-left: 3px; }
 
 .tech-skill-list_item-javascript {
   width: 70%;
@@ -318,15 +325,13 @@ a.button {
   border-color: #3498db; }
 
 .tech-skill-list_item_detail {
-  display: none;
-  position: relative;
-  left: 100px;
-  top: -20px;
-  z-index: 9999;
-  max-width: 650px;
-  padding: 10px;
+  width: 100%;
   background: white;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  height: 0;
+  padding: 0px;
+  margin: 5px 0 0 10px; }
 
 @media (max-width: 749px) {
   .tech-skill-list_item {
@@ -335,33 +340,19 @@ a.button {
   .tech-skill-list_item {
     margin-bottom: 20px; }
 
-  .tech-skill-list_item:hover .tech-skill-list_item_detail {
-    display: block;
-    font-size: 0.875em; }
-
   .fade {
-    -webkit-animation: 1s fadeIn 0.8s;
-    animation: 1s fadeIn 0.8s; }
+    -webkit-animation: fadeIn 0.8s linear 3s forwards;
+    animation: fadeIn 0.8s linear 3s forwards; }
 
   @-webkit-keyframes fadeIn {
     0% {
-      display: none;
-      opacity: 0; }
-    1% {
-      display: block;
       opacity: 0; }
     100% {
-      display: block;
       opacity: 1; } }
   @keyframes fadeIn {
     0% {
-      display: none;
-      opacity: 0; }
-    1% {
-      display: block;
       opacity: 0; }
     100% {
-      display: block;
       opacity: 1; } } }
 /* 宸ヤ綔缁忛獙绔犺妭 */
 .work-exp-list {

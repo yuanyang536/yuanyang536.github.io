@@ -64,8 +64,8 @@
       <div class="section-body">
         <div class="tech-skill-list">
           <li class="tech-skill-list_item tech-skill-list_item-javascript tech-skill-list_item-mastered">
-            <h4 class="tech-skill-list_item_name">Javascript</h4>
-            <div class="tech-skill-list_item_detail fade">
+            <h4 class="tech-skill-list_item_name">Javascript<span class="sh-btn">请点击详细<i>◀</i></span></h4>
+            <div class="tech-skill-list_item_detail clearfix">
               <ul class="list">
                 <li>熟练使用jQuery等类库编码，熟悉使用原生Javascript；</li>
                 <li>熟练编写根据业务需求的javascript插件库；</li>
@@ -74,8 +74,8 @@
             </div>
           </li>
           <li class="tech-skill-list_item tech-skill-list_item-html-and-css tech-skill-list_item-practised">
-            <h4 class="tech-skill-list_item_name">HTML &amp; CSS</h4>
-            <div class="tech-skill-list_item_detail fade">
+            <h4 class="tech-skill-list_item_name">HTML &amp; CSS<span class="sh-btn">请点击详细<i>◀</i></span></h4>
+            <div class="tech-skill-list_item_detail">
               <ul class="list">
                 <li>能使用合适的结构编写兼容主流浏览器的页面布局；</li>
                 <li>熟练使用SCSS,LESS等css预处理器</li>
@@ -86,16 +86,16 @@
             </div>
           </li>
           <li class="tech-skill-list_item tech-skill-list_item-nodejs tech-skill-list_item-mastered">
-            <h4 class="tech-skill-list_item_name">Node.js</h4>
-            <div class="tech-skill-list_item_detail fade">
+            <h4 class="tech-skill-list_item_name">Node.js<span class="sh-btn">请点击详细<i>◀</i></span></h4>
+            <div class="tech-skill-list_item_detail">
               <ul class="list">
                 <li>熟悉gulp前端自动构建，能独立部署本地的环境</li>
               </ul>
             </div>
           </li>
           <li class="tech-skill-list_item tech-skill-list_item-photoshop">
-            <h4 class="tech-skill-list_item_name">Photoshop</h4>
-            <div class="tech-skill-list_item_detail fade">
+            <h4 class="tech-skill-list_item_name">Photoshop<span class="sh-btn">请点击详细<i>◀</i></span></h4>
+            <div class="tech-skill-list_item_detail">
               <ul class="list">
                 <li>能进行简单的图片处理和平面设计；</li>
                 <li>能制作动画GIF；</li>
@@ -177,5 +177,17 @@
     <p>于张静 2016年3月</p>
   </div>
 </footer>
+<script src="re/jquery.min.js"></script>
+<script>
+  $(function(){
+    $('.sh-btn').hover(function(){
+      $(this).find('i').text('▼');
+      $(this).parent().next().stop().animate({'opacity':'1','height':'100%','padding':'10px'});
+    },function(){
+      $(this).find('i').text('◀');
+      $(this).parent().next().stop().animate({'opacity':'0','height':'0','padding':'0'});
+    })
+  })
+</script>
 </body>
 </html>
